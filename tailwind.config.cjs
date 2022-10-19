@@ -8,9 +8,12 @@ module.exports = {
     extend: {
       fontFamily: {
         mukta: ['Mukta', "sans-serif"],
+        lobster: ['Lobster', "cursive"],
+        dancing: ['Dancing', "cursive"]
       },
     },
   },
+  
   plugins: [require("daisyui")],
   daisyui: {
     styled: true,
